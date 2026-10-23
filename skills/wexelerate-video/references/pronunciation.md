@@ -9,6 +9,7 @@ Two columns that must never be mixed up: **on screen** (correct spelling, always
 | Awi Lifshitz | Awi Lifshitz | `Avi Lifshitz` | CEO of weXelerate. Appears in many videos |
 | Email / web addresses | ecosystem@wexelerate.com | `ecosystem, at we accelerate, dot com` | **No hyphen** here: next to "dot com" the voice reads "we-accelerate" as "we dash exelerate". Spell out "at" and "dot", separate with commas |
 | weXelerate Innovation Hub | weXelerate Innovation Hub | `we-accelerate Innovation Hub` | The venue name. Praterstraße 1, 1020 Vienna |
+| FFG | FFG | `eff-eff-gee` | Austrian Research Promotion Agency. **English letters**, not German (`eff-eff-geh` sounds wrong to the team) |
 | Future Forward | Future Forward | `Future Forward` | Stylised `future forward >>` only in the logo |
 | Vienna / Wien | Vienna (English videos) | `Vienna` | |
 
@@ -18,10 +19,10 @@ Two columns that must never be mixed up: **on screen** (correct spelling, always
    If the request does not say, ask. Do not trust transcripts for spelling.
 2. **Pronunciation**: ask when in doubt. Write it the way an English speaker would read it
    aloud (`Skeen`, `Avi`), not in IPA.
-3. **Austrian / German company acronyms** are usually spoken with German letter names:
-   A `ah`, B `beh`, C `tseh`, D `deh`, E `eh`, G `geh`, H `hah`, I `ee`, J `yot`, K `kah`,
-   P `peh`, S `ess`, T `teh`, U `oo`, V `fow`, W `veh`, Z `tset`. Write them hyphenated,
-   e.g. "Beh-kah-ess". Confirm with the requester.
+3. **Acronyms: English letters by default** (`eff-eff-gee` for FFG). Some Austrian
+   companies want their name in German letters (A `ah`, B `beh`, G `geh`, K `kah`, S `ess`,
+   ...); only use German letters when the requester or the company says so, and add the
+   acronym to the table above.
 4. **Check after generating**: transcribe the voiceover; if the name comes back as an
    English mishearing of the wrong sound, regenerate that line.
 5. When a person corrects you, add them to this table in a pull request.

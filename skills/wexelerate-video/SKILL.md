@@ -51,6 +51,9 @@ Write the storyline before building. One idea per beat, in order:
   full-screen type moment.
 - **End card**: logo lockup, one headline, venue/date in mono, one CTA if there is one.
 
+Data explainers: a question headline per scene, answered by one animated chart
+(`references/data-explainer.md`).
+
 Educational / facts reels: lead with numbers ("$5 billion. 650 people. 1 bank…"), give each
 hero 2–4 verified facts as fact cards, timed to the voiceover.
 
@@ -62,7 +65,9 @@ own rules (weXelerate: no emoji, sentence case; FF: load the `ff-copy` skill).
 
 ## 5. Build → `references/design-system.md`, `references/brand-*.md`, `references/formats.md`
 
-Start from `templates/reel/` (copy it into the project folder). Set `brand` and `format`
+Footage-based videos start from `templates/reel/`; animated data explainers (no footage,
+charts + voiceover) start from `templates/data-explainer/` and follow
+`references/data-explainer.md`. Copy the template into the project folder. Set `brand` and `format`
 in the config; the template switches logo, colours, radius and type weight. Read
 `references/hyperframes-notes.md` before touching the timeline code.
 

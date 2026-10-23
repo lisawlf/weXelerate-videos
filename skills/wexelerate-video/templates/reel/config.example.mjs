@@ -6,6 +6,7 @@ export default {
   title: "EXAMPLE recap",
   brand: "wexelerate",          // "wexelerate" | "futureforward"
   format: "9:16",               // "9:16" (default) | "4:5" | "1:1" | "16:9"
+  // theme: "quantum",          // weXelerate quantum topics only: teal end card (default is navy)
   duration: 40.0,
   headerLogo: false,            // small logo top-right after the hook (FF reels often use it)
 

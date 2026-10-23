@@ -32,6 +32,7 @@ body:
         - Interview or panel cut (soundbites with captions)
         - Promo / announcement (tickets, applications, CTA)
         - Educational / facts reel ("3 things worth knowing")
+        - Data explainer (animated charts + voiceover, no footage needed)
         - Something else (describe below)
     validations:
       required: true

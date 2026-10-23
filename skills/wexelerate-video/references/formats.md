@@ -12,8 +12,11 @@ it rescales type and moves the layout anchors.
 
 ## Safe zones
 
-- **9:16**: keep text out of the top 220–250 px and the bottom ~420 px (username, caption,
-  audio sticker) and the right 110–160 px (like / comment / share rail).
+- **9:16**: Meta's Reels safe zone is 14 % top, 35 % bottom, 6 % each side (≈ 269 / 672 /
+  65 px). Our house margins: **110 px left and right**, headlines below y = 270, key data
+  above y ≈ 1400, nothing important in the bottom-right corner (like / comment / share
+  rail). Organic captions cover less than ads, so y 1250–1400 is fine for secondary text
+  such as source lines.
 - **4:5 and 1:1**: 72 px margin all round; the feed crops nothing, but the UI overlays the
   bottom 10 %.
 - **16:9**: 80 px margin. Captions centred in the lower third, max 2 lines, max ~42

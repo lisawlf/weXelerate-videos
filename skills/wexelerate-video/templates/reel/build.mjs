@@ -23,7 +23,7 @@ const BRANDS = {
   wexelerate: {
     weight: 700, radius: 14, logo: "logos/wexelerate/wexelerate-white.png", logoH: 64,
     chipBg: "rgba(14,14,14,.42)", chipBorder: "rgba(255,255,255,.34)", chipBlur: "blur(30px) saturate(180%)",
-    endBg: "#319b8e", accent: "#dcff00", upper: false,
+    endBg: "#102030", accent: "#dcff00", upper: false,   // quantum topics: set `theme: "quantum"` for a teal end card
   },
   futureforward: {
     weight: 800, radius: 8, logo: "logos/future-forward/ff-logo-white.png", logoH: 100,
@@ -31,7 +31,8 @@ const BRANDS = {
     endBg: "radial-gradient(120% 75% at 95% 100%, #11264f 0%, #0a1834 30%, #050b1a 55%, #000 80%)", accent: "#dcff00", upper: false,
   },
 };
-const B = BRANDS[C.brand || "wexelerate"];
+const B = { ...BRANDS[C.brand || "wexelerate"] };
+if (C.theme === "quantum" && (C.brand || "wexelerate") === "wexelerate") B.endBg = "#319b8e";
 if (!B) throw new Error(`unknown brand ${C.brand}; use wexelerate or futureforward`);
 const ASSETS = C.assetsDir || "assets";
 
@@ -91,17 +92,17 @@ html, body { width:${F.w}px; height:${F.h}px; overflow:hidden; background:#000; 
 .chip { display:inline-block; font-size:${S(28)}; color:#fff; background:${B.chipBg}; border:1px solid ${B.chipBorder}; border-radius:${B.radius}px; padding:${S(12)} ${S(18)}; -webkit-backdrop-filter:${B.chipBlur}; backdrop-filter:${B.chipBlur}; }
 .h { font-family:"Sora", sans-serif; font-weight:${B.weight}; letter-spacing:-.045em; line-height:1.0; text-shadow:0 4px 30px rgba(0,0,0,.35); }
 #head { right:${Math.min(F.padR, 140)}px; top:${F.top}px; } #head img { height:${S(58)}; width:auto; }
-#hook { left:80px; right:${F.padR}px; top:${F.low - 60 * F.s}px; } #hook .chip { margin-bottom:${S(28)}; } #hook .teaser { margin:${S(28)} 0 0; } #hook .h { font-size:${S(112)}; }
-.prog { left:80px; top:${F.top}px; }
-.low { left:80px; right:${F.padR}px; top:${F.low}px; } .low .h { font-size:${S(100)}; } .low .chip { margin-top:${S(24)}; } .low .kick { margin:0 0 ${S(24)}; }
-.who { left:80px; top:${F.top}px; display:flex; flex-direction:column; gap:12px; } .who b { font-family:"Sora", sans-serif; font-weight:${B.weight}; font-size:${S(72)}; letter-spacing:-.04em; line-height:1; } .who .chip { align-self:flex-start; }
-.cap { position:absolute; left:80px; right:${F.padR + 20}px; top:${F.cap}px; font-family:"Sora", sans-serif; font-weight:${B.weight}; font-size:${S(66)}; line-height:1.08; letter-spacing:-.03em; text-shadow:0 4px 24px rgba(0,0,0,.7), 0 2px 4px rgba(0,0,0,.6); opacity:0; visibility:hidden; }
+#hook { left:110px; right:${F.padR}px; top:${F.low - 60 * F.s}px; } #hook .chip { margin-bottom:${S(28)}; } #hook .teaser { margin:${S(28)} 0 0; } #hook .h { font-size:${S(112)}; }
+.prog { left:110px; top:${F.top}px; }
+.low { left:110px; right:${F.padR}px; top:${F.low}px; } .low .h { font-size:${S(100)}; } .low .chip { margin-top:${S(24)}; } .low .kick { margin:0 0 ${S(24)}; }
+.who { left:110px; top:${F.top}px; display:flex; flex-direction:column; gap:12px; } .who b { font-family:"Sora", sans-serif; font-weight:${B.weight}; font-size:${S(72)}; letter-spacing:-.04em; line-height:1; } .who .chip { align-self:flex-start; }
+.cap { position:absolute; left:110px; right:${F.padR + 20}px; top:${F.cap}px; font-family:"Sora", sans-serif; font-weight:${B.weight}; font-size:${S(66)}; line-height:1.08; letter-spacing:-.03em; text-shadow:0 4px 24px rgba(0,0,0,.7), 0 2px 4px rgba(0,0,0,.6); opacity:0; visibility:hidden; }
 .cw { opacity:.4; }
-#quote { left:80px; right:${F.padR}px; top:${F.low - 60 * F.s}px; } #quote .h { font-size:${S(104)}; } #quote .ln { display:block; }
-#url { left:80px; top:${F.low - 100 * F.s}px; } #url .kick { margin-bottom:${S(22)}; }
+#quote { left:110px; right:${F.padR}px; top:${F.low - 60 * F.s}px; } #quote .h { font-size:${S(104)}; } #quote .ln { display:block; }
+#url { left:110px; top:${F.low - 100 * F.s}px; } #url .kick { margin-bottom:${S(22)}; }
 #url .pill, .cta { display:inline-block; background:${B.accent}; color:#000; border-radius:50px; font-family:"Sora", sans-serif; font-weight:800; }
 #url .pill { padding:${S(30)} ${S(52)}; font-size:${S(62)}; letter-spacing:-.02em; }
-#end { inset:0; display:flex; flex-direction:column; justify-content:center; gap:${S(40)}; padding:0 80px; background:${B.endBg}; }
+#end { inset:0; display:flex; flex-direction:column; justify-content:center; gap:${S(40)}; padding:0 110px; background:${B.endBg}; }
 #end .lock { display:flex; align-items:center; gap:${S(28)}; } #end .logo { height:${S(B.logoH)}; width:auto; }
 #end .sep { width:1px; align-self:stretch; background:#d9d9d9; } #end .partner { height:${S(B.logoH)}; width:auto; }
 #end .h { font-size:${S(120)}; } #end .meta { align-self:flex-start; background:none; border:0; padding:0; -webkit-backdrop-filter:none; backdrop-filter:none; font-size:${S(28)}; }

@@ -18,6 +18,15 @@ Never: teal text, navy on black, white on lime, the retired navy `#213959`, deco
 gradients. The photo scrim (`linear-gradient(to top, rgba(0,0,0,.82), transparent)`) is the
 only gradient.
 
+## Colour weighting in video (decided by the team, Oct 2026)
+
+- **Default weXelerate video**: white, black (`#0e0e0e`) and navy (`#102030`) carry the
+  frame. Teal and lime are **hints only**: one teal element per scene at most (a marker, a
+  highlight line, one chip), and lime once, on the CTA.
+- **Quantum topics only** (Quantum Reality Check, Qubit Founders, anything quantum):
+  teal-led. Teal headline highlights, teal data, teal end card.
+- End card default: navy `#102030` field with the white wordmark. Quantum: teal field.
+
 ## Type
 
 Sora **700** for headlines (not 800), sentence case, negative tracking. Barlow 400 body.
@@ -60,5 +69,6 @@ frame instead and flag it.
 
 ## End card (default)
 
-Teal `#319b8e` field, white wordmark (or wordmark × partner), white Sora 700 headline,
-venue in mono (`weXelerate Innovation Hub · Vienna`), optional lime CTA pill.
+Navy `#102030` field (teal `#319b8e` for quantum topics), white wordmark (or wordmark ×
+partner), white Sora 700 headline, venue in mono (`weXelerate Innovation Hub · Vienna`),
+optional lime CTA pill.

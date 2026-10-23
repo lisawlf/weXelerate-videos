@@ -22,7 +22,7 @@ Floor: nothing readable under 28 px on a 1080-wide canvas.
 
 ## Layout (9:16)
 
-- **Side margin** 80 px left, 110–160 px right (Instagram's action rail sits on the right).
+- **Side margin** 110 px left and right (Meta's minimum is 6 % ≈ 65 px; we keep a buffer). Keep the bottom-right corner free for Instagram's action rail.
 - **Top keep-out** 250 px: progress chip, speaker name, logo start at y = 250.
 - **Lower block** (names, facts, hook) starts at y ≈ 1000–1080.
 - **Captions** at y = 1240–1400. Nothing important below y = 1500 (caption and UI zone).

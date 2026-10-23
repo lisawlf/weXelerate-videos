@@ -46,6 +46,7 @@ skills/wexelerate-video/
   SKILL.md                                 production workflow (start here)
   references/
     design-system.md                       shared motion + type system, building blocks
+    data-explainer.md                      animated chart explainers: grid, lift shadows, scene kit, themes
     brand-wexelerate.md                    weXelerate layer: teal, Sora 700, glass chips, logo rules
     brand-future-forward.md                FF layer: acid, Sora 800, 8px boxes, FF logo, copy rules
     formats.md                             9:16 (default), 4:5, 1:1, 16:9 and safe zones
@@ -57,6 +58,7 @@ skills/wexelerate-video/
     hyperframes-notes.md                   tooling, commands, gotchas we hit
     qa-checklist.md                        before every delivery
   templates/reel/                          the reel builder (config → video), all brands and formats
+  templates/data-explainer/                data explainer (worked example: quantum), themes default / quantum
   tools/                                   new-project, inventory, transcribe-all, contact-sheet, finalize
   assets/logos/                            weXelerate wordmark + X mark, Future Forward logo + chevrons
 ```
@@ -66,10 +68,10 @@ skills/wexelerate-video/
 | | weXelerate | Future Forward |
 |---|---|---|
 | When | Everything weXelerate, partner and ecosystem videos | Only the FF conference |
-| Accent | Teal `#319b8e` field, lime `#dcff00` once per frame | Acid `#dcff00` once per frame |
+| Colour | White, black, navy lead; teal and lime only as hints. Teal-led **only for quantum topics** | Acid `#dcff00` once per frame |
 | Headlines | Sora 700, sentence case | Sora 800 |
 | Boxes | Dark glass, 14 px radius | 8 px radius |
-| End card | Teal field, white wordmark | Night-navy gradient, FF logo, acid CTA |
+| End card | Navy field, white wordmark (teal for quantum) | Night-navy gradient, FF logo, acid CTA |
 | Emoji | Never | Sparingly, captions only |
 
 Brand sources: [weXelerate Design System](https://github.com/lisawlf/weXelerate-Design-System),
