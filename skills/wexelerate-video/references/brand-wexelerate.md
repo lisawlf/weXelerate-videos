@@ -27,6 +27,14 @@ only gradient.
   teal-led. Teal headline highlights, teal data, teal end card.
 - End card default: navy `#102030` field with the white wordmark. Quantum: teal field.
 
+## Backgrounds (decided by the team, Oct 2026)
+
+- The hairline grid (`#d9d9d9`, 60 px cells) belongs **only to animated explainer videos
+  with charts, graphs or animations** (`data-explainer.md`). Nowhere else.
+- Statics (Instagram / LinkedIn carousels, carousel PDFs, Meta ads in 9:16 and 1:1, social
+  posts) and footage reels: plain white `#ffffff` or a navy `#102030` field, no pattern.
+  Depth comes from the soft card shadow, not from a background texture.
+
 ## Type
 
 Sora **700** for headlines (not 800), sentence case, negative tracking. Barlow 400 body.

@@ -20,6 +20,9 @@ Worked example: `templates/data-explainer/` (Quantum Reality Check, 65 s, 9:16).
 - **Canvas**: white with a faint hairline grid (`#d9d9d9` at ~55 %, 60 px cells) that drifts
   slowly over the whole video. This is the one sanctioned "pattern" in weXelerate video: it
   is made of hairlines, it is quiet, and it gives charts a surface to sit on.
+  **The grid is only for explainer videos that show charts, graphs or animations.** Never
+  on statics (carousels, ads, social posts, PDFs) and never on footage reels: those run on
+  plain white or navy (see `brand-wexelerate.md` → Backgrounds).
 - **Headline**: Sora 700, 84 px, sentence case, at y ≈ 300. One phrase sits on a highlight
   plate (white text on the theme's highlight colour, 14 px radius).
 - **Charts lift in with a soft shadow**: `0 10px 26px rgba(16,32,48,.10), 0 2px 5px
