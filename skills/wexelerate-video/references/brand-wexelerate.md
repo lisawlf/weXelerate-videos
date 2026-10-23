@@ -27,11 +27,25 @@ only gradient.
   teal-led. Teal headline highlights, teal data, teal end card.
 - End card default: navy `#102030` field with the white wordmark. Quantum: teal field.
 
+## Backgrounds (decided by the team, Oct 2026)
+
+- The hairline grid (`#d9d9d9`, 60 px cells) belongs **only to animated explainer videos
+  with charts, graphs or animations** (`data-explainer.md`). Nowhere else.
+- Statics (Instagram / LinkedIn carousels, carousel PDFs, Meta ads in 9:16 and 1:1, social
+  posts) and footage reels: plain white `#ffffff` or a navy `#102030` field, no pattern.
+  Depth comes from the soft card shadow, not from a background texture.
+
 ## Type
 
 Sora **700** for headlines (not 800), sentence case, negative tracking. Barlow 400 body.
 JetBrains Mono uppercase for eyebrows, dates, chips. Never more than two weights of one
 family on screen.
+
+**Client quotes and reviews** (testimonial cards in videos, carousels, stories, ads): the
+quote text is **Sora 400, not bold**, sentence case, teal opening and closing quote marks.
+The person's name is Sora 700, the company in mono beside or under it, with their photo
+if the source has one. Decided by the team, Oct 2026. Several quotes on one slide are
+fine: one card each, quoted word for word from the source.
 
 ## Shapes
 
@@ -55,10 +69,22 @@ Chips and fact plates are **dark glass** (ink-based so they stay legible on brig
 ## Co-branding (weXelerate × partner)
 
 Partner logo on the same baseline, separated by a 1 px `#d9d9d9` vertical hairline.
-Partner logos render in **one ink** (white on dark, black on light), never in their brand
-colours and never inside a white or coloured box. Ask the partner for a transparent
-single-colour logo; if only a logo on a white box exists, use the "×" text lockup on a dark
-frame instead and flag it.
+
+**Partner, client and caterer logos can always be used in full colour**, exactly as the
+partner supplies them (their own colours, and their own background box if the file has
+one). Decided by the team, Oct 2026. A one-ink version (white on dark, navy or black on
+light) is optional, for when a row of logos should read calmer; it is never required.
+
+- Use the partner's file as supplied: never recolour parts of it, stretch it or crop into
+  it. Do not rebuild a partner logo in live type when a logo file exists.
+- Several logos together (caterers, members): give each the same optical size in a grid,
+  not the same width. Wide wordmarks get less height than square marks.
+- Small source files (under ~200 px wide) look soft when enlarged: ask the partner for a
+  vector or a large PNG and flag it in the delivery note.
+- Logos ready to use: `assets/logos/catering/` (full colour originals plus one-ink navy
+  versions in `one-ink/`), `assets/logos/ecosystem/` (member and partner companies from the website).
+- The weXelerate wordmark itself stays unicolour (see Logo above). This rule is about
+  partner logos only.
 
 ## Copy
 

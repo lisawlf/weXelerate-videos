@@ -11,10 +11,13 @@
 ## Picture (snapshot every beat and look)
 - [ ] No text over a face. No text in the top 250 px / bottom 420 px / right rail (9:16).
 - [ ] Line breaks set by hand; no orphan words, no lines broken mid-phrase.
+- [ ] Client quotes in Sora 400 (not bold), name in Sora 700, quoted word for word.
 - [ ] One accent (lime / acid) element per frame at most.
+- [ ] Hairline grid only in an animated chart / graph explainer; none on statics, ads or footage reels.
 - [ ] Shots 2–3 s; no flicker cuts.
 - [ ] Count-ups never pass through a misleading value; final numbers correct.
-- [ ] Logo unicolour, not boxed, not stretched, clear space kept.
+- [ ] weXelerate logo unicolour, not boxed, not stretched, clear space kept.
+- [ ] Partner logos as supplied (full colour is fine), not stretched, equal optical size.
 - [ ] `npx hyperframes check` passes.
 
 ## Sound
