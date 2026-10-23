@@ -1,0 +1,11 @@
+{
+  "name": "wexelerate-videos",
+  "owner": { "name": "Lisa Wolf, weXelerate" },
+  "plugins": [
+    {
+      "name": "wexelerate-videos",
+      "source": "./",
+      "description": "Video production rules, brand layers, voice and templates for weXelerate and Future Forward videos."
+    }
+  ]
+}
