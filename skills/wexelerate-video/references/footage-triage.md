@@ -67,3 +67,20 @@ For other formats crop instead of squashing: `scale=-2:1920,crop=1080:1350` etc.
 
 Event photos are fine as 2–3 s stills with a slow push. Prefer portrait photos for 9:16;
 landscape photos lose most of the frame. Pick photos where the subject is large and sharp.
+
+## Website room loops (event spaces)
+
+The room loops from the website (`assets/video/*-loop.mp4` in the website repo:
+`auditorium-loop`, `space-28-loop`, `space-28-breakout-loop`, `lounge-loop`) **open with the
+walk to the room**; the room itself only appears in the middle or end of the clip. Never start them
+at 0. Tested starting points for a 2–3 s shot:
+
+| Clip | Shows the room from | Notes |
+|---|---|---|
+| `auditorium-loop.mp4` (12 s) | 8.0 s | Coloured chair rows facing the stage |
+| `space-28-loop.mp4` (8 s) | 4.5 s | Twenty Eight hall with chair rows |
+| `space-28-breakout-loop.mp4` (8 s) | 5.0 s | View through glass into the Breakout Lab |
+| `lounge-loop.mp4` (8 s) | never | Shows only the entrance area. Use `assets/event-spaces/lounge.jpg` with a slow zoom |
+
+Photos of the rooms: `assets/event-spaces/`. The video files themselves stay on OneDrive
+(`WEBSITES/weXelerate 2.6/.../assets/video/`), not in this repo.

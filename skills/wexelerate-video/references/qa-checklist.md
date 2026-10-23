@@ -14,7 +14,8 @@
 - [ ] One accent (lime / acid) element per frame at most.
 - [ ] Shots 2–3 s; no flicker cuts.
 - [ ] Count-ups never pass through a misleading value; final numbers correct.
-- [ ] Logo unicolour, not boxed, not stretched, clear space kept.
+- [ ] weXelerate logo unicolour, not boxed, not stretched, clear space kept.
+- [ ] Partner logos as supplied (full colour is fine), not stretched, equal optical size.
 - [ ] `npx hyperframes check` passes.
 
 ## Sound
