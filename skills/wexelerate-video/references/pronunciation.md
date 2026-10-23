@@ -7,6 +7,7 @@ Two columns that must never be mixed up: **on screen** (correct spelling, always
 |---|---|---|---|
 | weXelerate | weXelerate | `we-accelerate` | Capital X inside the word on screen. Without the phonetic spelling the voice says "Wixelerate" |
 | Awi Lifshitz | Awi Lifshitz | `Avi Lifshitz` | CEO of weXelerate. Appears in many videos |
+| Email / web addresses | ecosystem@wexelerate.com | `ecosystem, at we accelerate, dot com` | **No hyphen** here: next to "dot com" the voice reads "we-accelerate" as "we dash exelerate". Spell out "at" and "dot", separate with commas |
 | weXelerate Innovation Hub | weXelerate Innovation Hub | `we-accelerate Innovation Hub` | The venue name. Praterstraße 1, 1020 Vienna |
 | Future Forward | Future Forward | `Future Forward` | Stylised `future forward >>` only in the logo |
 | Vienna / Wien | Vienna (English videos) | `Vienna` | |
