@@ -41,6 +41,12 @@ Sora **700** for headlines (not 800), sentence case, negative tracking. Barlow 4
 JetBrains Mono uppercase for eyebrows, dates, chips. Never more than two weights of one
 family on screen.
 
+**Client quotes and reviews** (testimonial cards in videos, carousels, stories, ads): the
+quote text is **Sora 400, not bold**, sentence case, teal opening and closing quote marks.
+The person's name is Sora 700, the company in mono beside or under it, with their photo
+if the source has one. Decided by the team, Oct 2026. Several quotes on one slide are
+fine: one card each, quoted word for word from the source.
+
 ## Shapes
 
 Chips and fact plates are **dark glass** (ink-based so they stay legible on bright footage): `rgba(14,14,14,.42)` fill, 1 px
