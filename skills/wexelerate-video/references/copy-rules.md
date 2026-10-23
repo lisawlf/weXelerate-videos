@@ -16,6 +16,12 @@
 - Quotes on screen are what the person actually said in the footage, translated
   faithfully if needed. Mark nothing as a quote that was not said.
 
+## Partners and funders
+
+- Present partners as the ones who make things happen, not as a money source. "Initiated
+  by the FFG", "together with", "in partnership with". Never "funded by" / "sponsored by"
+  unless the partner asks for that wording. (Management feedback, Oct 2026.)
+
 ## People
 
 - Names exactly as the person writes them (see `pronunciation.md`).

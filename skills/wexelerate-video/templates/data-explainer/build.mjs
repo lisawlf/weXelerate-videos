@@ -204,7 +204,7 @@ ${L.map(([s, d], i) => `  <audio id="vo${i + 1}" src="assets/vo/vo${i + 1}.m4a" 
   <section class="scene" id="s7">
     <h1 class="hl">${headline("The [Quantum Reality Check].")}</h1>
     ${[["3×", "Webinars", 3], ["3×", "Roundtables", 3], ["1×", "CEO briefing", 1], ["1×", "Ideation Day", 1]].map(([n, lab, k], i) => `<div class="step" id="st${i}" style="top:${600 + i * 150}px"><span class="n">${n}</span><span class="lab">${lab}</span><span class="sqs">${"<i></i>".repeat(k)}</span></div>`).join("")}
-    <div id="free"><span class="chip navy mono">Free of charge · funded by the FFG</span></div>
+    <div id="free"><span class="chip navy mono">Free of charge · initiated by the FFG</span></div>
     <div class="src mono" style="top:1390px">quantum.wexelerate.com</div>
   </section>
 
