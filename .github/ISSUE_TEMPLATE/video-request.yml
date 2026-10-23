@@ -1,0 +1,121 @@
+name: Video request
+description: Ask for a reel, recap, interview cut or promo. Claude produces it with the right brand, voice, spelling and design.
+title: "[Video] "
+labels: ["video-request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Fill in what you know. Anything left empty gets a sensible default (9:16 reel, weXelerate brand, Ivano voice if a voiceover is wanted).
+        **Spelling and pronunciation of every name is the one thing we cannot guess.** Please add them.
+
+  - type: dropdown
+    id: brand
+    attributes:
+      label: Brand
+      description: Whose video is it? Future Forward videos get the FF logo and FF copy rules. Everything else is weXelerate.
+      options:
+        - weXelerate
+        - Future Forward
+        - weXelerate × partner (co-branded)
+      default: 0
+    validations:
+      required: true
+
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What kind of video?
+      options:
+        - Event recap (footage + photos, optional voiceover)
+        - Talking head / speaker reel (one person to camera)
+        - Interview or panel cut (soundbites with captions)
+        - Promo / announcement (tickets, applications, CTA)
+        - Educational / facts reel ("3 things worth knowing")
+        - Something else (describe below)
+    validations:
+      required: true
+
+  - type: dropdown
+    id: format
+    attributes:
+      label: Format
+      options:
+        - "9:16 reel / story (1080×1920), default"
+        - "4:5 feed (1080×1350)"
+        - "1:1 square (1080×1080)"
+        - "16:9 landscape (1920×1080), YouTube, website, screens"
+        - Several of the above
+      default: 0
+
+  - type: input
+    id: length
+    attributes:
+      label: Target length
+      placeholder: "e.g. 30–45s. Default: as short as the story allows, usually 30–70s"
+
+  - type: textarea
+    id: goal
+    attributes:
+      label: Goal and audience
+      description: What should a viewer think, feel or do after watching?
+      placeholder: "e.g. Recap of Day 2 for partners; make the three speakers the heroes; drive applications for the startup expo."
+    validations:
+      required: true
+
+  - type: textarea
+    id: footage
+    attributes:
+      label: Footage and photos
+      description: Where are the files? OneDrive path or share link. Mention which takes are good if you know.
+      placeholder: "OneDrive > PUBLIC FILES > ... > Event 22.10.2026/  (IMG_8591–8735.MOV + photos)"
+    validations:
+      required: true
+
+  - type: textarea
+    id: people
+    attributes:
+      label: People on screen (name, role, pronunciation)
+      description: Exact spelling as the person writes it, their role, and how to say the name if it is not obvious. Only confirmed facts.
+      placeholder: |
+        Awi Lifshitz, CEO weXelerate (say "Avi")
+        Jane Doe, Head of Innovation, Example Bank (say "Jah-neh")
+    validations:
+      required: true
+
+  - type: dropdown
+    id: voiceover
+    attributes:
+      label: Voiceover
+      options:
+        - "No voiceover (captions + live soundbites only)"
+        - "Yes, ElevenLabs voice Ivano (default)"
+        - "Yes, a different voice (name it below)"
+      default: 0
+
+  - type: textarea
+    id: script
+    attributes:
+      label: Key messages, facts, script notes
+      description: Facts to include and where they come from (link). Unsourced facts get flagged, not invented.
+      placeholder: |
+        - Founded 2025, valued at $5B (TechCrunch, 2 Sep 2026)
+        - Keep the line "banking isn't something you do on the side"
+
+  - type: input
+    id: cta
+    attributes:
+      label: Call to action
+      placeholder: "e.g. Apply for a booth at futureforward.at · or none (recap)"
+
+  - type: input
+    id: deadline
+    attributes:
+      label: Needed by
+      placeholder: "e.g. 24.10.2026 12:00"
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else
+      description: Music you will add in Edits/Instagram, references you like, things to avoid.
